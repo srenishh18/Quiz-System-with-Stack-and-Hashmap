@@ -1,0 +1,26 @@
+# Compiled Java files
+*.class
+*.jar
+*.war
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if used)
+node_modules/
+npm-debug.log
+
+# Build directories
+bin/
+dist/
+build/

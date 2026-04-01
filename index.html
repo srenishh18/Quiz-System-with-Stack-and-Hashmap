@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz with Scores</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container" id="quizContainer">
+    <h1>Quiz with Scores</h1>
+    <div id="quiz">
+      <div class="question" id="question">Loading question...</div>
+      <div class="options" id="options"></div>
+      <button id="nextBtn" class="hidden option">Next</button>
+    </div>
+  </div>
+
+  <div id="celebration" class="hidden">
+    🎉 Congratulations! 🎉
+    <div id="finalScore"></div>
+    <button id="restartBtn">Restart Quiz</button>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
